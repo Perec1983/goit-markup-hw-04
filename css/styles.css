@@ -500,11 +500,14 @@ img {
   border-radius: 4px;
 }
 
+
+
 .list-btn:hover,
 .list-btn:focus {
   background: var(--link-color);
   color: var(--white-color);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);;
 }
 
 .gallery-list {
@@ -517,6 +520,15 @@ img {
 .gallery-list-link {
   width: calc((100% - 48px) / 3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gallery-item {
+  display: block;
+}
+
+.gallery-item:hover,
+.gallery-item:focus {
+  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .gallery-container {

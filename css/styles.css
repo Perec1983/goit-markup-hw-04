@@ -112,6 +112,11 @@ img {
   color: var(--link-color);
 }
 
+.clients-header-link:focus,
+.clients-header-link:hover {
+  border-color: var(--link-color);
+  color: var(--link-color);
+}
 .adress-list {
   gap: 40px;
 }
@@ -334,8 +339,13 @@ img {
   width: 100%;
   height: 100%;
   display: block;
-  background-color: #404bbf;
+  background-color: var(--second-text-color);
   border-radius: 50%;
+  fill: var(--second-white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .specialist-soc-link svg{

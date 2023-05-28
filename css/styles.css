@@ -281,6 +281,11 @@ img {
   gap: 24px;
 }
 
+.specialist-soc-icon {
+  width: 16px;
+  height: 16px;
+}
+
 .specialist-heading {
   font-size: 36px;
   line-height: 1.11;
@@ -441,7 +446,9 @@ img {
 
 .footer-soc-icons {
   fill: var(--second-white-color);
-  
+  width: 24px;
+  height: 24px;
+
 }
 
 

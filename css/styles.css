@@ -353,9 +353,13 @@ img {
 .clients-header-list {
   display: flex;
   gap: 24px;
+  
+
+}
+
+.clients-header-price{
   width: calc((100% - 120px) / 6);
   height: 88px;
-
 }
 
 .clients-header-link {

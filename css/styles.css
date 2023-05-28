@@ -404,13 +404,14 @@ img {
   padding: 100px 0;
 }
 
-.footer-footer {
-  display: flex;
-  align-items: baseline;
+.footer-header {
+  margin-right: 120px;
 }
 
-.footer-list {
-  margin-right: 120px;
+.footer-content {
+  display: flex;
+  align-items: baseline;
+
 
 }
 
